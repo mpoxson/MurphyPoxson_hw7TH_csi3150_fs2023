@@ -15,8 +15,9 @@ const SignUp = () => {
       ...prevInfo,
       [name]: value,
     }));
-    console.log(getter);
   }
+
+  console.log(getter);
 
   return (
     <main>
