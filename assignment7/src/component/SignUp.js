@@ -17,7 +17,9 @@ const SignUp = () => {
     }));
   }
 
-  console.log(getter);
+  function clicked(params) {
+    console.log(getter);
+  }
 
   return (
     <main>
@@ -62,6 +64,7 @@ const SignUp = () => {
           value={getter.phoneNumber}
           onChange={handleChange}
         />
+        <button onClick={clicked}>SUBMIT</button>
       </div>
     </main>
   );
